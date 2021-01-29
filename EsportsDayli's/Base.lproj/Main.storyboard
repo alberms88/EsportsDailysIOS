@@ -22,7 +22,7 @@
                             <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="15" translatesAutoresizingMaskIntoConstraints="NO" id="TsG-K1-lUv">
                                 <rect key="frame" x="0.0" y="44" width="414" height="818"/>
                                 <subviews>
-                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo semifinal4" translatesAutoresizingMaskIntoConstraints="NO" id="EiT-cu-WEq">
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pantalla de carga1" translatesAutoresizingMaskIntoConstraints="NO" id="EiT-cu-WEq">
                                         <rect key="frame" x="8" y="50" width="398" height="180"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="180" id="xfe-XC-KAL"/>
@@ -175,7 +175,7 @@
         </scene>
     </scenes>
     <resources>
-        <image name="logo semifinal4" width="1890" height="1890"/>
+        <image name="pantalla de carga1" width="1063" height="1890"/>
         <image name="pantalla de cargafondo" width="1063" height="1890"/>
     </resources>
 </document>
