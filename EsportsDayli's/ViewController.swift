@@ -20,6 +20,12 @@ class ViewController: UIViewController {
         
         
     }
+<<<<<<< HEAD
     
+=======
+
+    
+//hola
+>>>>>>> 0b3e915e54840b06e849d1f79b0040bbe4f66100
 }
 

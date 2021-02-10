@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0D66655025D40561004D4B92 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66654F25D40561004D4B92 /* SlidesViewController.swift */; };
 		0DC71DD925B9AC5C00BD19BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DD825B9AC5C00BD19BA /* AppDelegate.swift */; };
 		0DC71DDB25B9AC5C00BD19BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DDA25B9AC5C00BD19BA /* SceneDelegate.swift */; };
 		0DC71DDD25B9AC5C00BD19BA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DDC25B9AC5C00BD19BA /* ViewController.swift */; };
@@ -36,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0D66654F25D40561004D4B92 /* SlidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
 		0DC71DD525B9AC5B00BD19BA /* EsportsDayli's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EsportsDayli's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC71DD825B9AC5C00BD19BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC71DDA25B9AC5C00BD19BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 				0DC71DE325B9AC5C00BD19BA /* LaunchScreen.storyboard */,
 				0DC71DE625B9AC5C00BD19BA /* Info.plist */,
 				0DFFB55025BB06A600EEA930 /* VistaDiseñable.swift */,
+				0D66654F25D40561004D4B92 /* SlidesViewController.swift */,
 			);
 			path = "EsportsDayli's";
 			sourceTree = "<group>";
@@ -263,6 +266,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				0DC71DDD25B9AC5C00BD19BA /* ViewController.swift in Sources */,
+				0D66655025D40561004D4B92 /* SlidesViewController.swift in Sources */,
 				0DFFB55125BB06A600EEA930 /* VistaDiseñable.swift in Sources */,
 				0DC71DD925B9AC5C00BD19BA /* AppDelegate.swift in Sources */,
 				0DC71DDB25B9AC5C00BD19BA /* SceneDelegate.swift in Sources */,
