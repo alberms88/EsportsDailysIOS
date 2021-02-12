@@ -9,23 +9,12 @@
 import UIKit
 
 class ViewController: UIViewController {
-    @IBAction func BackButton(_ sender: Any) {
     
-    }
     
     override func viewDidLoad() {
         super.viewDidLoad()
         
         
-        
-        
     }
-<<<<<<< HEAD
-    
-=======
-
-    
-//hola
->>>>>>> 0b3e915e54840b06e849d1f79b0040bbe4f66100
 }
 

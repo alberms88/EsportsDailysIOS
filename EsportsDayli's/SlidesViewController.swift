@@ -6,7 +6,7 @@
 //  Copyright © 2021 Apps2m. All rights reserved.
 //
 
-import UIKit
+/* import UIKit
 
 class SlideViewController: UIViewController {
 
@@ -66,6 +66,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     
 }
     
-    
+    */
     
 

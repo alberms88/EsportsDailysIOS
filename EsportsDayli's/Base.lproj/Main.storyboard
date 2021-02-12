@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="hSP-hq-gfk">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -39,7 +39,7 @@
                                     <color key="titleColor" systemColor="linkColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
-                                    <segue destination="DOb-rh-U5Q" kind="show" id="GmJ-Ij-KWh"/>
+                                    <segue destination="DOb-rh-U5Q" kind="show" id="eAO-Sq-GI9"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcd-x2-Swt">
@@ -102,14 +102,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3841" y="46"/>
+            <point key="canvasLocation" x="-3845" y="-56"/>
         </scene>
-        <!--View Controller-->
+        <!--Register Controller-->
         <scene sceneID="Xfm-Vu-tyO">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="Mci-27-dFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
-                <exit id="H2t-Pf-q6s" userLabel="Exit" sceneMemberID="exit"/>
-                <viewController id="DOb-rh-U5Q" sceneMemberID="viewController">
+                <viewController id="DOb-rh-U5Q" customClass="RegisterController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qP0-oH-BoH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -151,14 +149,8 @@
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="G8g-U3-gEH">
                                 <rect key="frame" x="147" y="672" width="120" height="120"/>
                                 <state key="normal" backgroundImage="flecha final"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="8I4-2E-JLQ">
-                                <rect key="frame" x="32" y="66.666666666666629" width="36" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <state key="normal" backgroundImage="arrowshape.turn.up.left.fill" catalog="system"/>
                                 <connections>
-                                    <action selector="BackButton:" destination="H2t-Pf-q6s" eventType="touchUpInside" id="HfD-bT-oaW"/>
+                                    <action selector="DismissButton:" destination="DOb-rh-U5Q" eventType="touchUpInside" id="8vy-Gj-0bQ"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -197,8 +189,9 @@
                     </view>
                     <navigationItem key="navigationItem" id="mbK-LL-Ty6"/>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Mci-27-dFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3049.275362318841" y="45.535714285714285"/>
+            <point key="canvasLocation" x="-3052" y="-308"/>
         </scene>
         <!--Slides-->
         <scene sceneID="sg0-Ou-1Y7">
@@ -265,9 +258,23 @@
             </objects>
             <point key="canvasLocation" x="-752.17391304347836" y="-534.375"/>
         </scene>
+        <!--View Controller-->
+        <scene sceneID="VnQ-Ga-l7K">
+            <objects>
+                <viewController id="z8b-h4-feq" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="KQd-eg-UEj">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <viewLayoutGuide key="safeArea" id="r5k-5L-jTD"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zgS-yl-HbL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-3845" y="-729"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="arrowshape.turn.up.left.fill" catalog="system" width="128" height="106"/>
         <image name="flecha final" width="1063" height="1092"/>
         <image name="logo ed" width="1890" height="1890"/>
         <image name="pantalla de cargafondo (1)" width="1063" height="1890"/>
