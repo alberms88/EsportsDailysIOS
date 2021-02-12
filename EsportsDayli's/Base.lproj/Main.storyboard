@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z8b-h4-feq">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -191,7 +191,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mci-27-dFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3052" y="-308"/>
+            <point key="canvasLocation" x="-3097" y="-56"/>
         </scene>
         <!--Slides-->
         <scene sceneID="sg0-Ou-1Y7">
@@ -256,22 +256,32 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xk9-BI-6yr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-752.17391304347836" y="-534.375"/>
+            <point key="canvasLocation" x="-2207" y="-56"/>
         </scene>
-        <!--View Controller-->
+        <!--Loading Controller-->
         <scene sceneID="VnQ-Ga-l7K">
             <objects>
-                <viewController id="z8b-h4-feq" sceneMemberID="viewController">
+                <viewController id="z8b-h4-feq" customClass="LoadingController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="KQd-eg-UEj">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m9T-e2-zoV">
+                                <rect key="frame" x="39" y="119" width="335" height="675"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
                         <viewLayoutGuide key="safeArea" id="r5k-5L-jTD"/>
                     </view>
+                    <connections>
+                        <outlet property="Gift" destination="m9T-e2-zoV" id="GrY-Lr-iVx"/>
+                        <outlet property="LoadingGift" destination="m9T-e2-zoV" id="pSZ-QV-Jew"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="zgS-yl-HbL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3845" y="-729"/>
+            <point key="canvasLocation" x="-4723.188405797102" y="-56.25"/>
         </scene>
     </scenes>
     <resources>
