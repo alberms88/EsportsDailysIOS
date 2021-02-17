@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Bucket
+<<<<<<< HEAD
    uuid = "6644965E-2840-4DC4-BC46-450B6873079B"
    type = "1"
    version = "2.0">
+=======
+   uuid = "F6B8C7FB-23EA-4D47-A5A2-5A72D604121A"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A8AF4335-1AC7-4DA5-8B73-C7733E7C60D5"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "EsportsDayli&apos;s/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "15"
+            endingLineNumber = "15"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+>>>>>>> 355ba684bc5cd00f1d90e14b19899ac039b9b4cc
 </Bucket>
