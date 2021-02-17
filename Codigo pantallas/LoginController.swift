@@ -15,6 +15,26 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         
         
+}
+    
+    @IBAction func GoTeam(_ sender: Any) {
+        
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+
+        
+
+        let vc = storyboard.instantiateViewController(identifier: "TeamController") as! TeamController
+
+                
+
+        vc.modalPresentationStyle = .overFullScreen
+
+        
+
+        present(vc, animated: true)
+    
+    
     }
 }
+
 

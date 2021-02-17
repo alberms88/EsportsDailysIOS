@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="z8b-h4-feq">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097.3" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
     <device id="retina6_5" orientation="portrait" appearance="light"/>
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
@@ -11,7 +11,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Login" id="BYZ-38-t0r" customClass="ViewController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" colorLabel="IBBuiltInLabel-Red">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -42,10 +42,6 @@
                                     <segue destination="DOb-rh-U5Q" kind="show" id="eAO-Sq-GI9"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcd-x2-Swt">
-                                <rect key="frame" x="135" y="668" width="144" height="144"/>
-                                <state key="normal" backgroundImage="flecha final"/>
-                            </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="SIGN IN" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="zm4-vv-9hf">
                                 <rect key="frame" x="152" y="330" width="110" height="33.666666666666686"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="28"/>
@@ -68,6 +64,16 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <textInputTraits key="textInputTraits" secureTextEntry="YES" textContentType="password"/>
                             </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="rcd-x2-Swt">
+                                <rect key="frame" x="135" y="668" width="144" height="144"/>
+                                <state key="normal" backgroundImage="flecha final"/>
+                                <connections>
+                                    <action selector="GoTeam:" destination="BYZ-38-t0r" eventType="touchUpInside" id="DTS-Vn-w3y"/>
+                                    <action selector="Transicion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="NIw-uc-rX8"/>
+                                    <action selector="transicion:" destination="BYZ-38-t0r" eventType="touchUpInside" id="aFU-MN-GJo"/>
+                                    <segue destination="9YP-oe-80x" kind="presentation" modalPresentationStyle="fullScreen" modalTransitionStyle="coverVertical" id="SnG-iE-fN7"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Kam-qt-kw1" secondAttribute="trailing" constant="111" id="2FU-hG-agn"/>
@@ -102,12 +108,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3845" y="-56"/>
+            <point key="canvasLocation" x="-3129" y="-56"/>
         </scene>
         <!--Register Controller-->
         <scene sceneID="Xfm-Vu-tyO">
             <objects>
-                <viewController id="DOb-rh-U5Q" customClass="RegisterController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="Register" id="DOb-rh-U5Q" customClass="RegisterController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="qP0-oH-BoH">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -191,7 +197,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Mci-27-dFu" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-3097" y="-56"/>
+            <point key="canvasLocation" x="-2281" y="-56"/>
         </scene>
         <!--Slides-->
         <scene sceneID="sg0-Ou-1Y7">
@@ -256,32 +262,33 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xk9-BI-6yr" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-2207" y="-56"/>
+            <point key="canvasLocation" x="6558" y="1375"/>
         </scene>
-        <!--Loading Controller-->
-        <scene sceneID="VnQ-Ga-l7K">
+        <!--Team Controller-->
+        <scene sceneID="vEo-jT-EKT">
             <objects>
-                <viewController id="z8b-h4-feq" customClass="LoadingController" customModule="EsportsDayli_s" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="KQd-eg-UEj">
+                <viewController storyboardIdentifier="TeamController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="9YP-oe-80x" customClass="TeamController" customModule="EsportsDayli_s" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="f7Q-TK-EXZ">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="m9T-e2-zoV">
-                                <rect key="frame" x="39" y="119" width="335" height="675"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="pantalla de cargafondo (1)" translatesAutoresizingMaskIntoConstraints="NO" id="GaJ-AN-sWc">
+                                <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </imageView>
                         </subviews>
-                        <color key="backgroundColor" cocoaTouchSystemColor="viewFlipsideBackgroundColor"/>
-                        <viewLayoutGuide key="safeArea" id="r5k-5L-jTD"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="GaJ-AN-sWc" firstAttribute="top" secondItem="f7Q-TK-EXZ" secondAttribute="top" id="KPI-Pb-HfA"/>
+                            <constraint firstItem="GaJ-AN-sWc" firstAttribute="leading" secondItem="FBs-aP-pzl" secondAttribute="leading" id="Vgk-aO-ds5"/>
+                            <constraint firstItem="GaJ-AN-sWc" firstAttribute="trailing" secondItem="FBs-aP-pzl" secondAttribute="trailing" id="aDP-Vy-TUh"/>
+                            <constraint firstAttribute="bottom" secondItem="GaJ-AN-sWc" secondAttribute="bottom" id="cYK-oh-g9H"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="FBs-aP-pzl"/>
                     </view>
-                    <connections>
-                        <outlet property="Gift" destination="m9T-e2-zoV" id="GrY-Lr-iVx"/>
-                        <outlet property="LoadingGift" destination="m9T-e2-zoV" id="pSZ-QV-Jew"/>
-                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="zgS-yl-HbL" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jmY-D6-S9C" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-4723.188405797102" y="-56.25"/>
+            <point key="canvasLocation" x="-983" y="-67"/>
         </scene>
     </scenes>
     <resources>
