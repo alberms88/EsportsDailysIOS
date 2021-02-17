@@ -9,9 +9,6 @@
 /* Begin PBXBuildFile section */
 		0D66655025D40561004D4B92 /* SlidesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D66654F25D40561004D4B92 /* SlidesViewController.swift */; };
 		0D71CF8F25D6A7DF00C05E5F /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71CF8E25D6A7DF00C05E5F /* RegisterController.swift */; };
-		0D71CF9325D6B8F700C05E5F /* swift+gift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71CF9225D6B8F700C05E5F /* swift+gift.swift */; };
-		0D71CF9525D6B9F400C05E5F /* LoadingController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D71CF9425D6B9F400C05E5F /* LoadingController.swift */; };
-		0D71CF9725D6BBEF00C05E5F /* carga2GIFF.gif in Resources */ = {isa = PBXBuildFile; fileRef = 0D71CF9625D6BBEF00C05E5F /* carga2GIFF.gif */; };
 		0DC71DD925B9AC5C00BD19BA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DD825B9AC5C00BD19BA /* AppDelegate.swift */; };
 		0DC71DDB25B9AC5C00BD19BA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DDA25B9AC5C00BD19BA /* SceneDelegate.swift */; };
 		0DC71DDD25B9AC5C00BD19BA /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DDC25B9AC5C00BD19BA /* LoginController.swift */; };
@@ -20,6 +17,7 @@
 		0DC71DE525B9AC5C00BD19BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0DC71DE325B9AC5C00BD19BA /* LaunchScreen.storyboard */; };
 		0DC71DF025B9AC5C00BD19BA /* EsportsDayli_sTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DEF25B9AC5C00BD19BA /* EsportsDayli_sTests.swift */; };
 		0DC71DFB25B9AC5C00BD19BA /* EsportsDayli_sUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DC71DFA25B9AC5C00BD19BA /* EsportsDayli_sUITests.swift */; };
+		0DEBCCC625DBECC6006FDA3E /* TeamController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DEBCCC525DBECC6006FDA3E /* TeamController.swift */; };
 		0DFFB55125BB06A600EEA930 /* VistaDiseñable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0DFFB55025BB06A600EEA930 /* VistaDiseñable.swift */; };
 /* End PBXBuildFile section */
 
@@ -43,9 +41,6 @@
 /* Begin PBXFileReference section */
 		0D66654F25D40561004D4B92 /* SlidesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlidesViewController.swift; sourceTree = "<group>"; };
 		0D71CF8E25D6A7DF00C05E5F /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
-		0D71CF9225D6B8F700C05E5F /* swift+gift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "swift+gift.swift"; sourceTree = "<group>"; };
-		0D71CF9425D6B9F400C05E5F /* LoadingController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingController.swift; sourceTree = "<group>"; };
-		0D71CF9625D6BBEF00C05E5F /* carga2GIFF.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = carga2GIFF.gif; sourceTree = "<group>"; };
 		0DC71DD525B9AC5B00BD19BA /* EsportsDayli's.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "EsportsDayli's.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC71DD825B9AC5C00BD19BA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0DC71DDA25B9AC5C00BD19BA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -60,6 +55,7 @@
 		0DC71DF625B9AC5C00BD19BA /* EsportsDayli'sUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "EsportsDayli'sUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		0DC71DFA25B9AC5C00BD19BA /* EsportsDayli_sUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EsportsDayli_sUITests.swift; sourceTree = "<group>"; };
 		0DC71DFC25B9AC5C00BD19BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0DEBCCC525DBECC6006FDA3E /* TeamController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamController.swift; sourceTree = "<group>"; };
 		0DFFB55025BB06A600EEA930 /* VistaDiseñable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "VistaDiseñable.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -93,7 +89,7 @@
 			children = (
 				0DC71DDC25B9AC5C00BD19BA /* LoginController.swift */,
 				0D71CF8E25D6A7DF00C05E5F /* RegisterController.swift */,
-				0D71CF9425D6B9F400C05E5F /* LoadingController.swift */,
+				0DEBCCC525DBECC6006FDA3E /* TeamController.swift */,
 			);
 			path = "Codigo pantallas";
 			sourceTree = "<group>";
@@ -123,7 +119,6 @@
 			isa = PBXGroup;
 			children = (
 				0DC71DD825B9AC5C00BD19BA /* AppDelegate.swift */,
-				0D71CF9225D6B8F700C05E5F /* swift+gift.swift */,
 				0DC71DDA25B9AC5C00BD19BA /* SceneDelegate.swift */,
 				0DC71DDE25B9AC5C00BD19BA /* Main.storyboard */,
 				0DC71DE125B9AC5C00BD19BA /* Assets.xcassets */,
@@ -131,7 +126,6 @@
 				0DC71DE625B9AC5C00BD19BA /* Info.plist */,
 				0DFFB55025BB06A600EEA930 /* VistaDiseñable.swift */,
 				0D66654F25D40561004D4B92 /* SlidesViewController.swift */,
-				0D71CF9625D6BBEF00C05E5F /* carga2GIFF.gif */,
 			);
 			path = "EsportsDayli's";
 			sourceTree = "<group>";
@@ -260,7 +254,6 @@
 			files = (
 				0DC71DE525B9AC5C00BD19BA /* LaunchScreen.storyboard in Resources */,
 				0DC71DE225B9AC5C00BD19BA /* Assets.xcassets in Resources */,
-				0D71CF9725D6BBEF00C05E5F /* carga2GIFF.gif in Resources */,
 				0DC71DE025B9AC5C00BD19BA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -288,10 +281,9 @@
 			files = (
 				0DC71DDD25B9AC5C00BD19BA /* LoginController.swift in Sources */,
 				0D66655025D40561004D4B92 /* SlidesViewController.swift in Sources */,
-				0D71CF9325D6B8F700C05E5F /* swift+gift.swift in Sources */,
 				0D71CF8F25D6A7DF00C05E5F /* RegisterController.swift in Sources */,
-				0D71CF9525D6B9F400C05E5F /* LoadingController.swift in Sources */,
 				0DFFB55125BB06A600EEA930 /* VistaDiseñable.swift in Sources */,
+				0DEBCCC625DBECC6006FDA3E /* TeamController.swift in Sources */,
 				0DC71DD925B9AC5C00BD19BA /* AppDelegate.swift in Sources */,
 				0DC71DDB25B9AC5C00BD19BA /* SceneDelegate.swift in Sources */,
 			);
