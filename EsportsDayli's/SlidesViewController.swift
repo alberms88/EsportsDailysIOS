@@ -6,7 +6,7 @@
 //  Copyright © 2021 Apps2m. All rights reserved.
 //
 
-/* import UIKit
+ import UIKit
 
 class SlideViewController: UIViewController {
 
@@ -29,12 +29,12 @@ class SlideViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
-
-    
-//hola
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+    }
 }
 
-extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource { func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {return catimage.count
+    extension ViewController: UICollectionViewDelegate, UICollectionViewDataSource { func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {return catimage.count
     
     }
     
@@ -56,7 +56,7 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     
     internal func collectionView(_ collectionView: UICollectionView, layout collectionViewlayout: UICollectionViewLayout, insetForSectionAt section: Int) -> UIEdgeInsets { return UIEdgeInsets(top:0, left:0, bottom: 0, right: 0)}
     
-    func collectionView(_ collectionView: UICollectionView, layout collectionViewlayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize { let size = sliderCollectionV
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewlayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize { let size = slider
     
     
     
@@ -66,6 +66,6 @@ extension ViewController: UICollectionViewDelegateFlowLayout {
     
 }
     
-    */
+  
     
 
